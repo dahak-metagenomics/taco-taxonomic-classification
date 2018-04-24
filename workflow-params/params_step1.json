@@ -1,0 +1,11 @@
+{
+    "short_description" : "Taxonomic Classification Walkthrough 1 - Pull Biocontainers - Parameters",
+    "biocontainers" : {
+        "sourmash" : {
+            "use_local" : False,
+            "quayurl" : "quay.io/biocontainers/sourmash",
+            "version" : "2.0.0a3--py36_0"
+        }
+    }
+}
+

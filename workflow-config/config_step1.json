@@ -1,0 +1,4 @@
+{
+    "short_description": "Taxonomic Classification Walkthrough 1 - Pull Biocontainers - Configuration",
+    "workflow_targets" : ["data/.pulled_containers"]
+}
