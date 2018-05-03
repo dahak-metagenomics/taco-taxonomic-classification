@@ -1,0 +1,29 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "taco-simple\n\u00b6\n\n\nThis repository implements a read filtering workflow for\n\ndahak-taco\n.\n\n\nIn this documentation we will cover:\n\n\n\n\n\n\nDownload raw sequence data from OSF data store (wget).\n\n\n\n\n\n\nAssess the quality of the pre-filtered reads (fastqc)\n\n\n\n\n\n\nTrim and filter the reads based on a quality threshold (trimmomatic)\n\n\n\n\n\n\nAssess the quality of the post-filtered reads (fastqc)\n\n\n\n\n\n\nInterleave post-filtered reads (khmer) \n\n\n\n\n\n\nWe will not cover:\n\n\n\n\n\n\nHow to install \ntaco\n\n\n\n\n\n\nThe basics of \ntaco\n \n\n\n\n\n\n\nFor those, see the \ndahak-taco documentation\n.\n\n\nSetting Up Taco\n\u00b6\n\n\nBefore you can run any of these workflows, you must first \ninstall \ntaco\n. See \ndahak-taco documentation\n\nfor installation instructions.\n\n\nOnce \ntaco\n is installed, it will be available on the \ncommand line. The \ntaco\n commands covered in this document\nshould be run from the main workflow repository directory. \n\n\nWhat's In This Repository\n\u00b6\n\n\nRequired directories:\n\n\n\n\nrules/\n - contains rule and workflow definitions (REQUIRED)\n\n\n\n\nWorkflow files:\n\n\n\n\nworkflow-config/\n - contains workflow configuration files\n\n\nworkflow-params/\n - contains workflow parameter files\n\n\ndocker/\n - contains custom Docker images for use in taco workflows\n\n\nmy-workflow-files/\n - directory containing config/param/docker files \n    that should be kept together\n\n\n\n\nDocumentation files:\n\n\n\n\ndocs/\n - contains the documentation files (i.e., the document you're reading now)\n\n\nmkdocs.yml\n - configuration file for mkdocs, the documentation generator used by this repo\n\n\nmkdocs-material-dib/\n - git submodule containing mkdocs theme\n\n\n\n\nOptionally, you can also create a directory to contain \nall of the files for your particular workflow.\n\n\nWorkflows\n\u00b6\n\n\nThere's nothing here yet.",
+            "title": "Index"
+        },
+        {
+            "location": "/#taco-simple",
+            "text": "This repository implements a read filtering workflow for dahak-taco .  In this documentation we will cover:    Download raw sequence data from OSF data store (wget).    Assess the quality of the pre-filtered reads (fastqc)    Trim and filter the reads based on a quality threshold (trimmomatic)    Assess the quality of the post-filtered reads (fastqc)    Interleave post-filtered reads (khmer)     We will not cover:    How to install  taco    The basics of  taco      For those, see the  dahak-taco documentation .",
+            "title": "taco-simple"
+        },
+        {
+            "location": "/#setting-up-taco",
+            "text": "Before you can run any of these workflows, you must first \ninstall  taco . See  dahak-taco documentation \nfor installation instructions.  Once  taco  is installed, it will be available on the \ncommand line. The  taco  commands covered in this document\nshould be run from the main workflow repository directory.",
+            "title": "Setting Up Taco"
+        },
+        {
+            "location": "/#whats-in-this-repository",
+            "text": "Required directories:   rules/  - contains rule and workflow definitions (REQUIRED)   Workflow files:   workflow-config/  - contains workflow configuration files  workflow-params/  - contains workflow parameter files  docker/  - contains custom Docker images for use in taco workflows  my-workflow-files/  - directory containing config/param/docker files \n    that should be kept together   Documentation files:   docs/  - contains the documentation files (i.e., the document you're reading now)  mkdocs.yml  - configuration file for mkdocs, the documentation generator used by this repo  mkdocs-material-dib/  - git submodule containing mkdocs theme   Optionally, you can also create a directory to contain \nall of the files for your particular workflow.",
+            "title": "What's In This Repository"
+        },
+        {
+            "location": "/#workflows",
+            "text": "There's nothing here yet.",
+            "title": "Workflows"
+        }
+    ]
+}
